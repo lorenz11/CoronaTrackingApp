@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6bcfed</color>
+    <color name="colorPrimaryDark">#2ec3f0</color>
+    <color name="colorPrimary2">#f28066</color>
+    <color name="colorPrimaryDark2">#f7522d</color>
+    <color name="colorPrimary3">#47bbb0</color>
+    <color name="colorPrimaryDark3">#47abB0</color>
+
+
+    <color name="colorAccent">#D81B60</color>
+    <color name="blue">#775471E3</color>
+    <color name="progressgreen">#7efc9c</color>
+    <color name="progressred">#fa7f81</color>
+
+    <color name="GO">#ffaa7f</color>
+    <color name="BLE">#99bcff</color>
+    <color name="SC">#f7ff91</color>
+    <color name="DB">#b4ffaa</color>
+    <color name="EN">#c1f8ff</color>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">CoronaTrackingApp</string>
+    <string name="APP_UUID">795090c7-420d-4048-a24e-18e60180e23c</string>
+    <string name="Service_UUID">0b89d2d4-0ea6-4141-86bb-0c5fb91ab14a</string>
+    <string name="Characteristic_UUID_Date">31517c58-66bf-470c-b662-e352a6c80cba</string>
+    <string name="Characteristic_UUID_Checksum1">31517c58-66bf-470c-b662-e353a6c80cba</string>
+    <string name="Characteristic_UUID_Checksum2">31517c58-66bf-470c-b662-e354a6c80cba</string>
+    <string name="Characteristic_UUID_Checksum3">31517c58-66bf-470c-b662-e355a6c80cba</string>
+    <string name="Characteristic_UUID_Checksum4">31517c58-66bf-470c-b662-e356a6c80cba</string>
+
+    <string name="high_risk_string">You could be infected, please quarantine yourself.
+        Should you note symptoms, that point towards a corona infection see a doctor.
+        For more information click \'about the virus\'.</string>
+    <string name="low_risk_string">Your risk of being infected seems to be low.</string>
+
+    <string name="overview"><b>Overview</b></string>
+    <string name="avoid"><b>Avoid infection</b></string>
+    <string name="symptoms"><b>Symptoms</b></string>
+
+    <string name="aboutvirus1">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+        Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without
+        requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease,
+        diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
+        The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes
+        and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and
+        not touching your face.
+        The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs
+        or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).
+        At this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical trials
+        evaluating potential treatments. WHO will continue to provide updated information as soon as clinical
+        findings become available. \n\n <i>Source: Website WHO</i></string>
+
+    <string name="aboutvirus2">\u2022 wear a mask in public places\n
+        \u2022 wash your hands regularly\n\u2022 hold a distance of at least 1.5\n\t  meters
+        to other people</string>
+
+    <string name="aboutvirus3">\u2022 fever \n\u2022 dry coughing \n\u2022 fatigue \n\u2022 limb pain
+        \n\u2022 sore throat \n\u2022 headache \n\u2022 conjunctivitis \n\u2022 loss of taste or smell \n\u2022 rash on skin</string>
+
+
+    <string name="headline1"><b>How this App works</b></string>
+    <string name="headline2"><b>Privacy</b></string>
+
+    <string name="aboutapp1">This app uses Bluetooth Low Energy to transform your device into a beacon,
+        that constantly sends out a signal encoded such that other devices with the same app installed
+        can detect that another user is nearby. They will than attempt to connect to this device transmitting
+        a timestamp and a checksum. This app will later download keys from a server and check if one of the
+        saved timestamp checksum pairs matches one or several of those keys. That way this app will be able to tell if
+        you have been close to infected persons.</string>
+
+    <string name="aboutapp2">Because this app does not use GPS to actually locate your device, but uses
+        Bluetooth Low Energy to detect proximity, it is not able to track its users. Not even the ID unique
+        to your phones app (generated at first start) will be known to other users or the server except if you get
+        infected and report that information. When another users phone detects proximity to you (your device) it will
+        just receive an encrypted value with no similarity to your actual ID and saves that value locally. In conclusion you
+        don\'t have to worry about being tracked by other users or the owner of the main server or giving
+        away sensitive data.</string>
+</resources>
